@@ -1,0 +1,13 @@
+<form onsubmit="form()" name="myform">
+蔡徐坤是？<input type="text" name="cxk">
+<input type="submit">
+</form>
+<script>
+function form(){
+var x=document.forms["myform"]["cxk"].value
+if(x=="鸡"){
+document.write("蔡徐坤是鸡")}
+else
+{alert("再想一想")}
+}
+</script>
